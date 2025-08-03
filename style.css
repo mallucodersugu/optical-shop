@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: #0a3d62;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .section {
+    padding: 40px;
+  }
+  /* Products */
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  
+  button {
+    background: #27ae60;
+    color: #fff;
+    padding: 10px;
+    border: none;
+  }
+  .whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
